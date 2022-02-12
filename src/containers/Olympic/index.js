@@ -403,7 +403,7 @@ export default class Olympic extends React.Component {
     return (
       <div>
         <audio autoPlay id="myAudio">
-          <source src="http://m10.music.126.net/20220212232716/3a078f34a0d4510c6554eca15b40e99b/ymusic/0799/f368/4d01/df9cb41f2ce16c6806e23b6b858948cd.mp3" type="audio/mp3" />
+          <source src="http://music.163.com/song/media/outer/url?id=562598065.mp3" type="audio/mp3" />
         </audio>
         <div id="container"></div>
         {this.state.loadingProcess === 100 ? '' : (
